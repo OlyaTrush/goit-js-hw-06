@@ -44,6 +44,7 @@ createBtn.addEventListener("click", () => {
 
 function destroyBoxes() {
   boxesContainer.innerHTML = ``;
+  numInput.value = '';
   width = 30;
   height = 30;
 }
