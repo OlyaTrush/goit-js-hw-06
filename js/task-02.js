@@ -24,6 +24,6 @@ const newIngredients = ingredients.map(ingredient => {
 });
 
 array.append(...newIngredients);
-console.log(array);
+
 
 

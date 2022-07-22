@@ -7,12 +7,10 @@ const output = document.querySelector("#name-output");
 
 textInput.addEventListener("input", onTextInput);
 
-const defaultValue = output.textContent;
-
 function onTextInput(e) {
   if (e.currentTarget.value.length > 0) {
     output.textContent = e.currentTarget.value;
   } else {
-    output.textContent = defaultValue;
+    output.textContent = "Anonymous";
   }
 }
